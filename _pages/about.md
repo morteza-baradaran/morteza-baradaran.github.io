@@ -84,7 +84,6 @@ Encoding graph locality to improve cache prefetching and replacement policies.
 
 - Reviewer — *Journal of Supercomputing (JS)*, 2024–present  
 - Co-reviewer — *International Conference on Computer Design (ICCD)*, 2023  
-- ISCA 2024 Artifact Evaluation Committee
 
 ---
 
@@ -107,4 +106,4 @@ Encoding graph locality to improve cache prefetching and replacement policies.
 
 📍 Rice Hall, University of Virginia  
 ✉️ [rgq5aw@virginia.edu](mailto:rgq5aw@virginia.edu)  
-🔗 [GitHub](https://github.com/Morteza1814) | [LinkedIn](https://www.linkedin.com/in/morteza-baradaran-88991678/) | [Homepage](https://www.cs.virginia.edu/~rgq5aw/)
+🔗 [GitHub](https://github.com/Morteza1814) | [LinkedIn](https://www.linkedin.com/in/morteza-baradaran-88991678/)
