@@ -51,15 +51,23 @@ Fast and memory-efficient metagenomic aligner surpassing BLAST in speed and accu
 
 ### **Sangam: Chiplet-based DRAM-PIM with CXL**
 Scalable accelerator for LLM inference combining chiplet PIM and CXL integration.  
-[Preprint](https://arxiv.org/abs/2411.14554)
+
+### **Swift: Multi-FPGA Graph Analytics Framework**
+A scalable framework that distributes graph workloads across multiple FPGAs, overcoming memory capacity bottlenecks and improving throughput for large-scale graph analytics.  
+[Paper](https://ieeexplore.ieee.org/document/11113456)
 
 ### **PIMeval & PIMbench**
 Open frameworks for PIM simulation and benchmarking.  
-[GitHub](https://github.com/UVA-LavaLab/PIMeval-PIMbench)
+[GitHub](https://github.com/UVA-LavaLab/PIMeval-PIMbench) | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10763591)
 
 ### **ECG: Expressive Caching for Graphs**
 Encoding graph locality to improve cache prefetching and replacement policies.  
-[GitHub](https://github.com/UVA-LavaLab/ECG_GrAPL)
+[GitHub](https://github.com/UVA-LavaLab/ECG_GrAPL) | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10596431)
+
+### **Energy Consumption Analysis of Instruction Cache Prefetching**
+Evaluated the energy impact of instruction cache prefetching policies using **ChampSim** for simulation and **CACTI-7** for energy modeling, identifying trade-offs between performance gains and power overhead.  
+[GitHub](https://github.com/Morteza1814/ECICP) | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10306038)
+
 
 ---
 
