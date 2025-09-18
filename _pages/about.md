@@ -12,8 +12,7 @@ redirect_from:
 
 ## About Me
 
-I’m a Ph.D. student in Computer Science Department at the **University of Virginia**, advised by **Prof. Kevin Skadron**.  
-My work spans **computer architecture** and **domain-specific accelerators**, with a focus on **Processing-in-Memory (PIM)** and efficient systems for **graph analytics**, **video/vision models**, and **genomics**.
+I’m a Ph.D. student in Computer Science Department at the University of Virginia, advised by Prof. Kevin Skadron. My work spans *computer architecture* and *domain-specific accelerators*, with a focus on *Processing-in-Memory (PIM)* and efficient systems for *graph analytics*, *video/vision models*, and *genomics*.
 
 I enjoy building end-to-end systems—prototyping hardware-aware kernels, writing scalable C/C++/Python code, and validating ideas on real platforms.
 **[Download my CV (PDF)](/files/Resume.pdf)**
@@ -41,24 +40,27 @@ I enjoy building end-to-end systems—prototyping hardware-aware kernels, writin
 
 ## Selected Research Projects
 
+### **Accelerating Computer Vision Tasks using Processing-in-Memory**
+Designed a PIM-enabled architecture to accelerate hybrid Transformer–CNN models (e.g., *SAM2*) by addressing memory bottlenecks in the memory encoder and cross-attention layers, improving both throughput and memory efficiency.
+
 ### **TriPIM: Triangle Counting on UPMEM PIM**
 Exact triangle counting mapped to DPUs using a binary-search-based algorithm.  
 [GitHub](https://github.com/UVA-LavaLab/TriPIM)
+
+### **Sangam: A Chiplet-Based DRAM-PIM Accelerator with CXL Integration for LLM Inferencing**
+Scalable accelerator for LLM inference combining chiplet PIM and CXL integration.  
+
+### **PIMeval & PIMbench**
+Open frameworks for PIM simulation and benchmarking.  
+[GitHub](https://github.com/UVA-LavaLab/PIMeval-PIMbench) | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10763591)
 
 ### **PARMIK: PArtial Read Matching with Inexpensive K-mers**
 Fast and memory-efficient metagenomic aligner surpassing BLAST in speed and accuracy.  
 [GitHub](https://github.com/UVA-LavaLab/PARMIK.git) | [Preprint](https://www.biorxiv.org/content/10.1101/2024.10.14.618242v1.abstract)
 
-### **Sangam: Chiplet-based DRAM-PIM with CXL**
-Scalable accelerator for LLM inference combining chiplet PIM and CXL integration.  
-
 ### **Swift: Multi-FPGA Graph Analytics Framework**
 A scalable framework that distributes graph workloads across multiple FPGAs, overcoming memory capacity bottlenecks and improving throughput for large-scale graph analytics.  
 [Paper](https://ieeexplore.ieee.org/document/11113456)
-
-### **PIMeval & PIMbench**
-Open frameworks for PIM simulation and benchmarking.  
-[GitHub](https://github.com/UVA-LavaLab/PIMeval-PIMbench) | [Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10763591)
 
 ### **ECG: Expressive Caching for Graphs**
 Encoding graph locality to improve cache prefetching and replacement policies.  
